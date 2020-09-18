@@ -125,7 +125,7 @@ patch:
       reset: 0
       states: [ 中文, 西文 ]
     - name: emoji_suggestion
-      reset: 1
+      reset: 0
       states: [ "Yes", "No" ]
     - name: full_shape
       states: [ 半角, 全角 ]

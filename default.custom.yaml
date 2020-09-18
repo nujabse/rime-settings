@@ -1,7 +1,7 @@
 patch:
   schema_list:
-    - schema: double_pinyin_flypy # 小鹤双拼
     - schema: luna_pinyin # 全拼
+    - schema: double_pinyin_flypy # 小鹤双拼
     # - schema: double_pinyin # 自然码
   switcher/hotkeys:
     - "Control+grave" # 注意是control+`，不是command+`
@@ -10,7 +10,7 @@ patch:
     - ascii_punct
     - simplification
     - zh_hans
-    - emoji_suggestion
+    #- emoji_suggestion
   menu/page_size: 8
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写
