@@ -33,7 +33,8 @@ patch:
   # 本條補靪只在「小狼毫 0.9.30」、「鼠鬚管 0.9.25 」、「Rime-1.2」及更高的版本中起作用。
   "speller/algebra/@before 0": xform/^([b-df-np-z])$/$1_/
   #"switches/@0/reset": 1  #表示將 switcher 列表中的第一個元素（即 ascii_mode 開關）的初始值重設爲狀態1（即「英文」）。
-#模糊拼音
+#模糊拼音最多10个
+  "menu/page_size": 8   # 字段名加不加双引号都可以
   'speller/algebra':
     - erase/^xx$/                      # 第一行保留
     # 模糊音定義
